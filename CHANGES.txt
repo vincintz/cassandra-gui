@@ -1,0 +1,9 @@
+0.8.0-beta1
+ * supports 0.8.
+
+0.7.1
+ * fix Ability to refresh list of keyspaces (Issue 13)
+
+0.7.0
+ * add Create keyspace and remove keyspace
+ * add Create column family, remoce column family and truncate column family

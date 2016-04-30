@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.cassandra:cassandra-thrift:1.1.12'
+    compile 'org.apache.cassandra:cassandra-all:1.1.12'
+    compile 'jung:jung:1.7.6'
+}
